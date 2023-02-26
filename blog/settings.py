@@ -31,8 +31,6 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "localhost",
-    "*",
     "https://blog-django-production.up.railway.app/"
 ]
 
