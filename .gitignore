@@ -1,0 +1,51 @@
+# Ignorar archivos y directorios generados por Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de configuración local
+settings/local.py
+
+# Ignorar archivos de registro
+logs/
+*.log
+
+# Ignorar archivos de bases de datos
+*.sqlite3
+
+# Ignorar archivos de claves y contraseñas
+*.key
+*.pem
+*.p12
+*.password
+*.secret
+
+# Ignorar archivos de entorno
+.env
+.env.*
+
+# Ignorar archivos de dependencias
+venv/
+.venv/
+env/
+.envrc
+pipenv.lock
+Pipfile.lock
+
+# Ignorar archivos de compilación y distribución
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+wheels/
+
+# Ignorar archivos de caché y logs
+*.cache
+*.log
+
+# Ignorar archivos de respaldo
+*~
+.#*
+.DS_Store
